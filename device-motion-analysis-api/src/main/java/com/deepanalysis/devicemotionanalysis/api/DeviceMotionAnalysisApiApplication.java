@@ -1,13 +1,13 @@
-package com.deepanalysis.devicemotionanalysiscommon;
+package com.deepanalysis.devicemotionanalysis.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DeviceMotionAnalysisCommonApplication {
+public class DeviceMotionAnalysisApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DeviceMotionAnalysisCommonApplication.class, args);
+		SpringApplication.run(DeviceMotionAnalysisApiApplication.class, args);
 	}
 
 }
