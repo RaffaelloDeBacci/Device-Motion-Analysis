@@ -20,4 +20,6 @@ public interface EntityService< E > {
 
 		void delete(E entity);
 		
+		Class<E> getCurrentClass();
+		
 }
