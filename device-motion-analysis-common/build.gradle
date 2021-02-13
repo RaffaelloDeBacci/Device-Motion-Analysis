@@ -7,16 +7,16 @@ plugins {
 group = 'com.deep-analysis'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
-
+targetCompatibility = '11'
 repositories {
 	mavenCentral()
 }
 
+
+
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation group: 'javax.inject', name: 'javax.inject', version: '1'
 }
 
-test {
-	useJUnitPlatform()
-}
