@@ -14,8 +14,6 @@ public interface EntityService< E > {
 		
 		E update(E objectToSave);
 		
-		E patch(String id, Map<String, Object> fields);
-		
 		boolean delete(String id);
 
 		void delete(E entity);
