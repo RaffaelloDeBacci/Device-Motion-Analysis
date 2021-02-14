@@ -2,8 +2,6 @@ package com.deepanalysis.devicemotionanalysis.common.exception;
 
 import org.apache.commons.lang3.StringUtils;
 
-import jdk.jshell.spi.ExecutionControl.UserException;
-
 public class BaseEntityException extends UserException{
 
 	private Class<?> entityClass;
