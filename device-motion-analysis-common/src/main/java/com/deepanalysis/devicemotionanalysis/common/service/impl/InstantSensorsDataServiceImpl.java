@@ -13,6 +13,5 @@ public class InstantSensorsDataServiceImpl extends AbstractEntityService<Instant
 	public Class getCurrentClass() {
 		return InstantSensorsData.class;
 	}
-	
 
 }
