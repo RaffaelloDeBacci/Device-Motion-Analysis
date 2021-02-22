@@ -1,4 +1,4 @@
-package com.deepanalysis.devicemotionanalysis.common.configuration;
+/*package com.deepanalysis.devicemotionanalysis.common.configuration;
 
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Value;
@@ -65,4 +65,4 @@ public class MongoConfig {
 	      .build();
 	}
 
-}
+}*/
